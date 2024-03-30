@@ -1,0 +1,5 @@
+mmsegmentation
+logs
+work_dirs/*
+*.pth
+*.sh
