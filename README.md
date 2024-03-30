@@ -3,10 +3,11 @@ Pytorch Code for Generalized Deep Learning Model for Photovoltaic Module Segment
 
 ## Installation
 
-1. Clone this repository and navigate to pv-segmentation folder
+1. Clone this repository and navigate to pv-segmentation folder (and clone mmsegmentation inside folder)
 ```bash
 git clone https://github.com/ucf-photovoltaics/pv-segmentation.git
 cd pv-segmentation
+git clone https://github.com/open-mmlab/mmsegmentation.git
 ```
 
 2. Install Package
@@ -21,6 +22,10 @@ pip install -e .
 
 Download the model weights from the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/tree/main) repository and move them to the models folder.
 
+```
+mkdir models
+```
+
 - DeepLabV3+
 - UNET
 - Mask2Former
@@ -28,8 +33,12 @@ Download the model weights from the [mmsegmentation](https://github.com/open-mml
 ## Datasets
 To run our experiments you need to download the following datasets:
 
--PV01, PV03, PV08: https://zenodo.org/records/5171712
--Google and IGN: https://zenodo.org/records/7358126
+```
+mkdir datasets
+```
+
+- [PV01, PV03, PV08](https://zenodo.org/records/5171712)
+- [Google and IGN](https://zenodo.org/records/7358126)
 
 Once downloaded Google and IGN datasets, move them to the main datasets folder:
 
@@ -46,6 +55,10 @@ python preprocess.py
 
 ## Train and test model
 
+```
+mkdir work_dirs
 python evaluate.py
+```
+
 
 ## Citation
