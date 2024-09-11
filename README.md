@@ -64,16 +64,16 @@ python evaluate.py
 ## Citation
 ```
 @article{GARCIA2024112539,
-title = {Generalized deep learning model for photovoltaic module segmentation from satellite and aerial imagery},
-journal = {Solar Energy},
-volume = {274},
-pages = {112539},
-year = {2024},
-issn = {0038-092X},
-doi = {https://doi.org/10.1016/j.solener.2024.112539},
-url = {https://www.sciencedirect.com/science/article/pii/S0038092X24002330},
-author = {Gustavo García and Alejandro Aparcedo and Gaurav Kumar Nayak and Tanvir Ahmed and Mubarak Shah and Mengjie Li},
-keywords = {Solar energy, PV panel detection, Segmentation, CNN, Mask2Former, Image processing},
-abstract = {As solar photovoltaic (PV) has emerged as a dominant player in the energy market, there has been an exponential surge in solar deployment and investment within this sector. With the rapid growth of solar energy adoption, accurate and efficient detection of PV panels has become crucial for effective solar energy mapping and planning. This paper presents the application of the Mask2Former model for segmenting PV panels from a diverse, multi-resolution dataset of satellite and aerial imagery. Our primary objective is to harness Mask2Former’s deep learning capabilities to achieve precise segmentation of PV panels in real-world scenarios. We fine-tune the pre-existing Mask2Former model on a carefully curated multi-resolution dataset and a crowdsourced dataset of satellite and aerial images, showcasing its superiority over other deep learning models like U-Net and DeepLabv3+. Most notably, Mask2Former establishes a new state-of-the-art in semantic segmentation by achieving over 95% IoU scores. Our research contributes significantly to the advancement solar energy mapping and sets a benchmark for future studies in this field.}
+  title = {Generalized deep learning model for photovoltaic module segmentation from satellite and aerial imagery},
+  journal = {Solar Energy},
+  volume = {274},
+  pages = {112539},
+  year = {2024},
+  issn = {0038-092X},
+  doi = {https://doi.org/10.1016/j.solener.2024.112539},
+  url = {https://www.sciencedirect.com/science/article/pii/S0038092X24002330},
+  author = {Gustavo García and Alejandro Aparcedo and Gaurav Kumar Nayak and Tanvir Ahmed and Mubarak Shah and Mengjie Li},
+  keywords = {Solar energy, PV panel detection, Segmentation, CNN, Mask2Former, Image processing},
+  abstract = {As solar photovoltaic (PV) has emerged as a dominant player in the energy market, there has been an exponential surge in solar deployment and investment within this sector. With the rapid growth of solar energy adoption, accurate and efficient detection of PV panels has become crucial for effective solar energy mapping and planning. This paper presents the application of the Mask2Former model for segmenting PV panels from a diverse, multi-resolution dataset of satellite and aerial imagery. Our primary objective is to harness Mask2Former’s deep learning capabilities to achieve precise segmentation of PV panels in real-world scenarios. We fine-tune the pre-existing Mask2Former model on a carefully curated multi-resolution dataset and a crowdsourced dataset of satellite and aerial images, showcasing its superiority over other deep learning models like U-Net and DeepLabv3+. Most notably, Mask2Former establishes a new state-of-the-art in semantic segmentation by achieving over 95% IoU scores. Our research contributes significantly to the advancement solar energy mapping and sets a benchmark for future studies in this field.}
 }
 ```
